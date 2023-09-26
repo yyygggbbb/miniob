@@ -5,7 +5,7 @@ gantt
     dateFormat  YYYY-MM-DD
     section 初赛
     报名     :a1, 2023-09-26, 29d
-    评测     :a2, 2023-10-17, 30d
+    评测     :a2, 2023-10-17, 20d
 ```
 # 文档
 代码配套文档和相关代码注释已经生成文档，并通过 GitHub Pages 发布。您可以直接访问：[MiniOB GitHub Pages](https://oceanbase.github.io/miniob/).
