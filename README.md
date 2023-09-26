@@ -1,11 +1,27 @@
-# MiniOB 概述
-
-MiniOB 是 [OceanBase](https://github.com/oceanbase/oceanbase) 团队基于华中科技大学数据库课程原型，联合多所高校重新开发的、专为零基础的同学设计的数据库入门学习项目。我们的目标是为在校学生、数据库从业者、爱好者或对基础技术感兴趣的人提供一个友好的数据库学习项目。
-
-MiniOB 整体代码简洁，容易上手，设计了一系列由浅入深的题目，帮助同学们从零基础入门，迅速了解数据库并深入学习数据库内核。MiniOB 简化了许多模块，例如不考虑并发操作、安全特性和复杂的事务管理等功能，以便更好地学习数据库实现原理。我们期望通过 MiniOB 的训练，同学们能够熟练掌握数据库内核模块的功能和协同关系，并具备一定的工程编码能力，例如内存管理、网络通信和磁盘 I/O 处理等, 这将有助于同学在未来的面试和工作中脱颖而出。
-
-# [文档](https://oceanbase.github.io/miniob/)
+# RoadMap
+```mermaid
+gantt
+    title 进度图
+    dateFormat  YYYY-MM-DD
+    section 初赛
+    报名     :a1, 2023-09-26, 29d
+    评测     :a2, 2023-10-17, 30d
+```
+# 文档
 代码配套文档和相关代码注释已经生成文档，并通过 GitHub Pages 发布。您可以直接访问：[MiniOB GitHub Pages](https://oceanbase.github.io/miniob/).
+
+# 评测地址
+训练营地址 https://open.oceanbase.com/train?questionId=200001
+
+# 项目管理
+任务分配和其他问题解决 https://github.com/users/lurenjiamax/projects/1
+
+有任何问题也可以添加TODO项目或提出ISSUE 共同解决
+
+# 资源
+- 科学上网 192.168.191.101 7890
+- 服务器 192.168.100.0 请创建自己的虚拟机
+- 文件共享 samba:\\\192.168.191.101\fileshare samba 19782021
 
 ## 快速上手
 
@@ -84,10 +100,6 @@ OceanBase 初赛基于一套适合初学者实践的数据库实训平台 MiniOB
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/oceanbase/miniob)
 
 首次进入 Gitpod 时需要安装一些依赖。安装完成后，终端界面会显示 "Dependency installed successfully"。运行 `bash build.sh --make -j4` 命令即可编译 MiniOB。
-
-# Contributing
-
-OceanBase 社区热情欢迎每一位对数据库技术热爱的开发者，期待与您携手开启思维碰撞之旅。无论是文档格式调整或文字修正、问题修复还是增加新功能，都是参与和贡献 OceanBase 社区的方式之一。现在就开始您的首次贡献吧！更多详情，请参考 [社区贡献](CONTRIBUTING.md).
 
 # License
 
