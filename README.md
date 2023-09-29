@@ -10,6 +10,10 @@ gantt
 # 文档
 代码配套文档和相关代码注释已经生成文档，并通过 GitHub Pages 发布。您可以直接访问：[MiniOB GitHub Pages](https://oceanbase.github.io/miniob/).
 
+# 环境搭建注意事项
+- 先运行目录下的build.sh init配置依赖库
+- 如果有代理问题请设置环境变量 HTTPS_PROXY 与 HTTP_PROXY, ssh代理请自行查阅文档
+
 # 评测地址
 训练营地址 https://open.oceanbase.com/train?questionId=200001
 
@@ -20,7 +24,6 @@ gantt
 
 # 资源
 - 科学上网 192.168.191.101 7890
-- 服务器 192.168.100.0 请创建自己的虚拟机
 - 文件共享 samba:\\\192.168.191.101\fileshare samba 19782021
 
 ## 快速上手
