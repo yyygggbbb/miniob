@@ -25,6 +25,7 @@ gantt
 # 资源
 - 科学上网 192.168.191.101 7890
 - 文件共享 samba:\\\192.168.191.101\fileshare samba 19782021
+- 2022选手参赛仓库 https://github.com/lyxiong0/miniob 可参考其中的内容实现
 
 ## 快速上手
 
