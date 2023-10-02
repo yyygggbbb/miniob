@@ -22,10 +22,11 @@ gantt
 
 有任何问题也可以添加TODO项目或提出ISSUE 共同解决
 
-# 资源
+# [资源]
 - 科学上网 192.168.191.101 7890
 - 文件共享 samba:\\\192.168.191.101\fileshare samba 19782021
 - 2022选手参赛仓库 https://github.com/lyxiong0/miniob 可参考其中的内容实现
+- 其他仓库 https://github.com/dfzhang2022/showhands-ob/commits/develop
 
 ## 快速上手
 
